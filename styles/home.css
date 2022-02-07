@@ -1,0 +1,33 @@
+html {
+    scroll-behavior: smooth;
+}
+.logo{
+    width: 40px;
+}
+.cars{
+    padding: 60px;
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+}
+.perfil{
+    width: 100px;
+    border-radius: 50%;
+    border: 3px solid black;
+}
+.end-page{
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    justify-content: center;
+    padding-bottom: 40px;
+}
+@media screen and (max-width: 900px) {
+    .cars{
+        flex-direction: column;
+    }
+    .end-page{
+        flex-direction: column;
+        padding: 60px;
+    }
+}
